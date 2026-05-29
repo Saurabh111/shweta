@@ -68,13 +68,13 @@ export const education = [
   {
     degree: "M.Sc. — International Economics & Finance",
     institution: "Gokhale Institute of Politics and Economics",
-    year: "2022",
+    year: "2018",
     highlight: "Econometrics, Financial Theory, Macroeconomic Modeling",
   },
   {
     degree: "B.A. Hons. — Economics",
     institution: "Delhi University",
-    year: "2020",
+    year: "2016",
     highlight: "Statistical Analysis, Microeconomics, Research Methodology",
   },
 ];
