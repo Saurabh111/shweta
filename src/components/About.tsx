@@ -1,7 +1,7 @@
-import React from 'react';
-import { useInView } from 'react-intersection-observer';
-import { personalInfo, education, certifications } from '../data/portfolioData';
-import './About.css';
+import React from "react";
+import { useInView } from "react-intersection-observer";
+import { personalInfo, education, certifications } from "../data/portfolioData";
+import "./About.css";
 
 const About: React.FC = () => {
   const { ref, inView } = useInView({ threshold: 0.15, triggerOnce: true });
@@ -9,21 +9,19 @@ const About: React.FC = () => {
   return (
     <section id="about" className="about section" ref={ref}>
       <div className="container">
-        <div className={`about__grid ${inView ? 'visible' : ''}`}>
-
+        <div className={`about__grid ${inView ? "visible" : ""}`}>
           {/* Left: Text */}
           <div className="about__text fade-in">
             <p className="section-label">About</p>
             <h2 className="about__heading display-heading">
-              A finance professional<br />
-              <em>built for complexity.</em>
+              A finance professional
+              <br />
+              <em>grounded in statistics.</em>
             </h2>
-            <p className="about__body">
+            {/* <p className="about__body">
               {personalInfo.about}
-            </p>
-            <p className="about__body">
-              {personalInfo.aboutExtended}
-            </p>
+            </p> */}
+            <p className="about__body">{personalInfo.aboutExtended}</p>
 
             <div className="about__certifications">
               <p className="about__cert-label section-label">Certifications</p>
@@ -55,10 +53,23 @@ const About: React.FC = () => {
             </div>
 
             <div className="about__quant-box">
-              <p className="about__quant-label section-label">Quantitative Foundation</p>
+              <p className="about__quant-label section-label">
+                Quantitative Foundation
+              </p>
               <div className="about__quant-tags">
-                {['OLS Regression', 'ARIMA', 'SARIMA', 'Hypothesis Testing', 'Multicollinearity', 'Heteroscedasticity', 'Time Series', 'Exponential Smoothing'].map(tag => (
-                  <span key={tag} className="about__quant-tag">{tag}</span>
+                {[
+                  "OLS Regression",
+                  "ARIMA",
+                  "SARIMA",
+                  "Hypothesis Testing",
+                  "Multicollinearity",
+                  "Heteroscedasticity",
+                  "Time Series",
+                  "Exponential Smoothing",
+                ].map((tag) => (
+                  <span key={tag} className="about__quant-tag">
+                    {tag}
+                  </span>
                 ))}
               </div>
             </div>

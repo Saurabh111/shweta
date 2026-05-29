@@ -1,7 +1,7 @@
-import React from 'react';
-import { useInView } from 'react-intersection-observer';
-import { experience } from '../data/portfolioData';
-import './Experience.css';
+import React from "react";
+import { useInView } from "react-intersection-observer";
+import { experience } from "../data/portfolioData";
+import "./Experience.css";
 
 const riskProject = {
   title: "Risk Analytics — Fraud Detection Model",
@@ -11,8 +11,8 @@ const riskProject = {
     "Achieved 12% improvement in detection accuracy through feature engineering and model optimization",
     "Applied EDA and OneHotEncoder for categorical variable transformation across large transaction datasets",
     "Evaluated model performance using precision, recall, F1-score, AUC-ROC, and confusion matrix analysis",
-    "Presented findings and methodology directly to clients in project review meetings"
-  ]
+    "Presented findings and methodology directly to clients in project review meetings",
+  ],
 };
 
 const Experience: React.FC = () => {
@@ -21,15 +21,20 @@ const Experience: React.FC = () => {
   return (
     <section id="experience" className="experience section" ref={ref}>
       <div className="container">
-        <div className={`experience__header fade-in ${inView ? 'visible' : ''}`}>
+        <div
+          className={`experience__header fade-in ${inView ? "visible" : ""}`}
+        >
           <p className="section-label">Professional Experience</p>
           <h2 className="experience__heading display-heading">
-            Applied analytics,<br /><em>client-facing delivery.</em>
+            Applied analytics,
+            <br />
+            <em>client-facing delivery.</em>
           </h2>
         </div>
 
-        <div className={`experience__grid fade-in fade-in-delay-1 ${inView ? 'visible' : ''}`}>
-
+        <div
+          className={`experience__grid fade-in fade-in-delay-1 ${inView ? "visible" : ""}`}
+        >
           {/* Main Work Experience */}
           {experience.map((job) => (
             <div key={job.company} className="experience__job">
@@ -51,7 +56,7 @@ const Experience: React.FC = () => {
           ))}
 
           {/* Risk Analytics Project */}
-          <div className="experience__project">
+          {/* <div className="experience__project">
             <div className="experience__project-badge">
               {riskProject.type}
             </div>
@@ -63,7 +68,7 @@ const Experience: React.FC = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
-import React from 'react';
-import { useInView } from 'react-intersection-observer';
-import { competencies } from '../data/portfolioData';
-import './Competencies.css';
+import React from "react";
+import { useInView } from "react-intersection-observer";
+import { competencies } from "../data/portfolioData";
+import "./Competencies.css";
 
 const Competencies: React.FC = () => {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
@@ -9,14 +9,18 @@ const Competencies: React.FC = () => {
   return (
     <section id="competencies" className="competencies section" ref={ref}>
       <div className="container">
-        <div className={`competencies__header fade-in ${inView ? 'visible' : ''}`}>
+        <div
+          className={`competencies__header fade-in ${inView ? "visible" : ""}`}
+        >
           <p className="section-label">Core Competencies</p>
           <h2 className="competencies__heading display-heading">
-            Finance first.<br /><em>Technology enabled.</em>
+            Finance first.
+            <br />
+            <em>Technology enabled.</em>
           </h2>
           <p className="competencies__sub">
-            A framework built on quantitative rigor, applied through modern analytical tools — 
-            always in service of financial understanding.
+            A framework built on quantitative rigor, applied through modern
+            analytical tools
           </p>
         </div>
 
@@ -24,7 +28,7 @@ const Competencies: React.FC = () => {
           {competencies.map((group, i) => (
             <div
               key={group.category}
-              className={`competencies__card fade-in fade-in-delay-${i + 1} ${inView ? 'visible' : ''}`}
+              className={`competencies__card fade-in fade-in-delay-${i + 1} ${inView ? "visible" : ""}`}
             >
               <div className="competencies__card-header">
                 <span className="competencies__card-number">0{i + 1}</span>
