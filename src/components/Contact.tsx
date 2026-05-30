@@ -20,8 +20,8 @@ const Contact: React.FC = () => {
             <p className="contact__body">
               I'm actively exploring roles in financial analysis, modeling, and
               consulting. If you're looking for a finance professional who
-              combines rigorous analytical foundations with modern data
-              capabilities, I'd love to connect.
+              combines analytical foundations with modern data capabilities, I'd
+              love to connect.
             </p>
             <div className="contact__links">
               <a
