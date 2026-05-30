@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           <h1 className="hero__heading display-heading">
             <span className="hero__heading-line">Turning financial data</span>
             <span className="hero__heading-line hero__heading-line--accent">
-              into strategic insight.
+              into strategies for growth.
             </span>
           </h1>
 

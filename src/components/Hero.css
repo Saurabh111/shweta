@@ -13,8 +13,16 @@
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 80% 20%, rgba(27, 58, 107, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 20% 80%, rgba(74, 111, 165, 0.03) 0%, transparent 40%);
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(27, 58, 107, 0.04) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(74, 111, 165, 0.03) 0%,
+      transparent 40%
+    );
   pointer-events: none;
 }
 
@@ -28,7 +36,9 @@
 .hero__content {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
   max-width: 720px;
 }
 
@@ -123,7 +133,9 @@
   gap: 2.5rem;
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.9s ease 0.35s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.35s;
+  transition:
+    opacity 0.9s ease 0.35s,
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.35s;
   padding-top: 1rem;
   border-top: 1px solid var(--color-border);
   flex-wrap: wrap;
@@ -199,8 +211,15 @@
 }
 
 @keyframes scrollPulse {
-  0%, 100% { opacity: 0.4; transform: scaleY(1); }
-  50% { opacity: 1; transform: scaleY(1.1); }
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleY(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleY(1.1);
+  }
 }
 
 @media (max-width: 768px) {

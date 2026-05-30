@@ -54,21 +54,6 @@ const Experience: React.FC = () => {
               </ul>
             </div>
           ))}
-
-          {/* Risk Analytics Project */}
-          {/* <div className="experience__project">
-            <div className="experience__project-badge">
-              {riskProject.type}
-            </div>
-            <h3 className="experience__project-title">{riskProject.title}</h3>
-            <ul className="experience__highlights">
-              {riskProject.highlights.map((h, i) => (
-                <li key={i} className="experience__highlight">
-                  {h}
-                </li>
-              ))}
-            </ul>
-          </div> */}
         </div>
       </div>
     </section>

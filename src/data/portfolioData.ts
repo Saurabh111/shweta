@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Shweta Sharma",
   title: "Finance & Analytics Professional",
-  tagline: "Turning financial data into strategic insight",
+  tagline: "Turning financial data into strategies for grawth",
   subTagline: "Financial Modeling · Quantitative Research · Business Analytics",
   email: "shweta.sh905@gmail.com",
   linkedin: "https://linkedin.com/in/datawithshweta",
@@ -91,78 +91,78 @@ export const experience = [
     company: "DockDevelopers",
     period: "Oct 2022 – Jan 2025",
     highlights: [
-      "Deployed supervised ML models (Logistic Regression, Random Forest, Decision Tree) for financial fraud detection",
-      "Achieved 12% improvement in detection accuracy through feature engineering and model optimization",
-      "Applied EDA and OneHotEncoder for categorical variable transformation across large transaction datasets",
-      "Evaluated model performance using precision, recall, F1-score, AUC-ROC, and confusion matrix analysis",
-      "Presented findings and methodology directly to clients in project review meetings",
+      "Conducted credit fraud risk analysis by deploying and evaluating three supervised classification models Logistic Regression, Random Forest, and Decision Tree to assess effectiveness in detecting fraudulent financial transactions.",
+      "Performed Exploratory Data Analysis on transaction datasets to uncover fraud patterns, class imbalances, and feature relationships ahead of model development.",
+      "Engineered categorical transaction variables using OneHotEncoder to ensure clean, model-ready financial data across the analytical pipeline.",
+      "Benchmarked model performance across Precision, Recall, F1-Score, AUC-ROC, and Confusion Matrix prioritising recall optimisation to minimise undetected fraud exposure and reduce false negative risk.",
+      "Communicated model findings and risk trade-offs to clients in project review meetings, translating statistical outputs into actionable business risk implications.",
     ],
   },
 ];
 
 // Tata Power Financial Data
 export const liquidityData = [
-  { year: "FY21", currentRatio: 0.36, quickRatio: 0.28 },
-  { year: "FY22", currentRatio: 0.49, quickRatio: 0.33 },
-  { year: "FY23", currentRatio: 0.3, quickRatio: 0.17 },
-  { year: "FY24", currentRatio: 0.33, quickRatio: 0.2 },
-  { year: "FY25", currentRatio: 0.4, quickRatio: 0.25 },
+  { year: "FY21", currentRatio: 1.01, quickRatio: 0.69 },
+  { year: "FY22", currentRatio: 0.81, quickRatio: 0.73 },
+  { year: "FY23", currentRatio: 0.88, quickRatio: 0.71 },
+  { year: "FY24", currentRatio: 0.87, quickRatio: 0.62 },
+  { year: "FY25", currentRatio: 0.8, quickRatio: 0.66 },
 ];
 
 export const profitabilityData = [
-  { year: "FY21", npm: 4.08, roa: 0.17, roe: 1.23 },
-  { year: "FY22", npm: 27.88, roa: 0.89, roe: 6.76 },
-  { year: "FY23", npm: 19.06, roa: 0.87, roe: 7.09 },
-  { year: "FY24", npm: 13.53, roa: 0.64, roe: 5.51 },
-  { year: "FY25", npm: 14.27, roa: 0.66, roe: 6.19 },
+  { year: "FY21", npm: 3.5, roa: 1.58, roe: 4.8 },
+  { year: "FY22", npm: 4.0, roa: 2.48, roe: 9.6 },
+  { year: "FY23", npm: 14.9, roa: 3.17, roe: 12.6 },
+  { year: "FY24", npm: 7.0, roa: 3.2, roe: 11.4 },
+  { year: "FY25", npm: 7.3, roa: 3.23, roe: 11.5 },
 ];
 
 export const revenueData = [
-  { year: "FY21", revenue: 14429.67, netProfit: 537.05 },
-  { year: "FY22", revenue: 14095.04, netProfit: 3097.26 },
-  { year: "FY23", revenue: 21813.17, netProfit: 3378.97 },
-  { year: "FY24", revenue: 21945.75, netProfit: 2718.84 },
-  { year: "FY25", revenue: 24848.91, netProfit: 3190.06 },
+  { year: "FY21", revenue: 33143.67, netProfit: 1439.05 },
+  { year: "FY22", revenue: 42816.04, netProfit: 2156.26 },
+  { year: "FY23", revenue: 55109.17, netProfit: 3810.97 },
+  { year: "FY24", revenue: 61542.75, netProfit: 4280.84 },
+  { year: "FY25", revenue: 64502.91, netProfit: 4775.06 },
 ];
 
 export const leverageData = [
-  { year: "FY21", debtToEquity: 2.05, interestCoverage: -4.82 },
-  { year: "FY22", debtToEquity: 2.0, interestCoverage: -1.76 },
-  { year: "FY23", debtToEquity: 1.17, interestCoverage: 2.2 },
-  { year: "FY24", debtToEquity: 1.17, interestCoverage: 10.95 },
-  { year: "FY25", debtToEquity: 1.01, interestCoverage: 33.57 },
+  { year: "FY21", debtToEquity: 2.05, interestCoverage: 1.2 },
+  { year: "FY22", debtToEquity: 2.26, interestCoverage: 2.55 },
+  { year: "FY23", debtToEquity: 1.75, interestCoverage: 2.52 },
+  { year: "FY24", debtToEquity: 1.59, interestCoverage: 2.1 },
+  { year: "FY25", debtToEquity: 1.6, interestCoverage: 1.6 },
 ];
 
 export const efficiencyData = [
   {
     year: "FY21",
-    inventoryTurnover: 2.7,
-    debtorsTurnover: 13.49,
-    fixedAssetsTurnover: 0.89,
+    inventoryTurnover: 5.03,
+    debtorsTurnover: 70,
+    fixedAssetsTurnover: 1.36,
   },
   {
     year: "FY22",
-    inventoryTurnover: 4.23,
-    debtorsTurnover: 20.55,
-    fixedAssetsTurnover: 1.28,
+    inventoryTurnover: 7.46,
+    debtorsTurnover: 72,
+    fixedAssetsTurnover: 0.63,
   },
   {
     year: "FY23",
-    inventoryTurnover: 5.28,
-    debtorsTurnover: 26.04,
-    fixedAssetsTurnover: 1.94,
+    inventoryTurnover: 8.79,
+    debtorsTurnover: 75,
+    fixedAssetsTurnover: 0.82,
   },
   {
     year: "FY24",
-    inventoryTurnover: 5.22,
-    debtorsTurnover: 46.47,
-    fixedAssetsTurnover: 2.82,
+    inventoryTurnover: 9.84,
+    debtorsTurnover: 72,
+    fixedAssetsTurnover: 0.4,
   },
   {
     year: "FY25",
     inventoryTurnover: 5.03,
-    debtorsTurnover: 57.98,
-    fixedAssetsTurnover: 3.18,
+    debtorsTurnover: 86,
+    fixedAssetsTurnover: 0.47,
   },
 ];
 
@@ -170,37 +170,37 @@ export const keyInsights = [
   {
     metric: "Debt-to-Equity",
     from: "2.05x",
-    to: "1.01x",
+    to: "1.60x",
     label: "FY21 → FY25",
     insight:
-      "Significant deleveraging over 5 years, signaling improved capital structure discipline",
+      "Optimized capital structure with reduced reliance on debt, enhancing financial stability and lowering risk.",
     positive: true,
   },
   {
     metric: "Interest Coverage",
-    from: "-4.82x",
-    to: "33.57x",
+    from: "1.20x",
+    to: "1.60x",
     label: "FY21 → FY25",
     insight:
-      "Dramatic recovery from negative coverage to strong debt servicing capacity",
+      "Improved ability to meet interest obligations, reflecting stronger earnings and better cash flow management.",
     positive: true,
   },
   {
     metric: "Revenue Growth",
-    from: "₹14,430 Cr",
-    to: "₹24,849 Cr",
+    from: "₹33143.67 Cr",
+    to: "₹64,502.91 Cr",
     label: "FY21 → FY25",
     insight:
-      "72% revenue growth driven by renewable energy expansion and capacity additions",
+      "Robust revenue growth driven by strategic expansion in renewable energy and enhanced operational performance.",
     positive: true,
   },
   {
     metric: "Net Profit Margin",
-    from: "4.08%",
-    to: "14.27%",
+    from: "3.5%",
+    to: "7.30%",
     label: "FY21 → FY25",
     insight:
-      "Margin expansion reflects operational efficiency gains and debt cost reduction",
+      "Significant margin improvement reflecting operational efficiencies, cost control, and a shift towards higher-margin renewable energy projects.",
     positive: true,
   },
 ];

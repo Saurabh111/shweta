@@ -19,7 +19,6 @@
 }
 
 .experience__grid {
-  display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 2rem;
   align-items: start;
@@ -116,7 +115,7 @@
 }
 
 .experience__highlight::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0.65em;
