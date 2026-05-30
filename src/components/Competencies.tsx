@@ -18,10 +18,10 @@ const Competencies: React.FC = () => {
             <br />
             <em>Technology enabled.</em>
           </h2>
-          <p className="competencies__sub">
+          {/* <p className="competencies__sub">
             A framework built on quantitative rigor, applied through modern
             analytical tools
-          </p>
+          </p> */}
         </div>
 
         <div className="competencies__grid">
