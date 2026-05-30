@@ -32,7 +32,7 @@ export const competencies = [
       "Excel Financial Models",
       "DCF Modeling",
       "Scenario Analysis",
-      "Actual vs Forecast",
+      "Variance and Sensitivity Analysis",
       "Dashboard Design",
     ],
   },
